@@ -1,0 +1,6 @@
+olive_nyc_violations:
+  outputs:
+    dev:
+      type: duckdb
+      path: ../data/nyc_parking_violations.db
+  target: dev
